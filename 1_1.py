@@ -1,0 +1,5 @@
+name = input('Введите ваше имя ')
+surname = input('Введите вашу фамилию ')
+age = int(input('Введите ваш возраст '))
+age_plus = str(age+1)
+print(surname, name + ", в следующем году Вам исполнится " + age_plus + ' лет!')
